@@ -1,1 +1,1 @@
-alert("Hardcore JS")
+//alert("Hardcore JS")
