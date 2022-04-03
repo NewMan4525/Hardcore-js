@@ -48,7 +48,7 @@ if(lang==true){
 switch(lang){
 case true:
 	switch(random){
-	case 0:alert('Switch сообщает что сегодня - вторник');break;
+	case 0:alert('Switch сообщает что сегодня - понедельник');break;
 	case 1:alert('Switch сообщает что сегодня - вторник');break;
 	case 2:alert('Switch сообщает что сегодня - среда');break;
 	case 3:alert('Switch сообщает что сегодня - четверг');break;
