@@ -1,9 +1,9 @@
 'use strict';
+
 let lang = confirm('Lang == RU?');
-
-
+let namePerson = prompt('Привет, как вас зовут?','Артем');
 let random = Math.floor(Math.random() * 7);
-alert(random)
+
 let week =[['monday','tuesday','wednesday','thursday','friday','saturday','sunday'],
 		['Понедельник','Вторник','Среда','Четверг','Пятница','Суббота','Восересенье'],
 		['Massive says today - ','Массив сообщает что сегодня - ']
@@ -73,15 +73,6 @@ break
 
 alert(week[2][Number(lang)]+week[Number(lang)][random])
 
-let namePerson = prompt('Привет, как вас зовут?','Артем');
+//name test
 
 namePerson =='Артем'? console.log('Boss'):namePerson =='Александр'? console.log('Teacher'):console.log('Student');
-
-
-// 2). У нас есть переменная namePerson.
-//Если значение этой переменной “Артем” то вывести в консоль “директор”,
-//если значение “Александр” то вывести в консоль “преподаватель”,
-//с любым другим значением вывести в консоль “студент”
-//  Решить задачу с помощью нескольких тернарных операторов, без использования if или switch
-
-// 3). Запушить проект в репозиторий для усложненных заданий на GitHub
